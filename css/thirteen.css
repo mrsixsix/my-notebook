@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:0.32rem;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+		.up3{
+			width: 6.4rem;
+			line-height: 0.88rem;
+			background-color:#50bbdb;
+			display:flex;
+		}
+		.up3>div{
+			text-align: center;
+			border:0.01rem solid #fff;
+			border-radius:50%;
+			width:0.43rem;
+			height:0.43rem;
+			margin-top: 0.23rem;
+			margin-left: 0.43rem;
+		}
+		.up3>div>a{
+			text-decoration: none;
+			color: #fff;
+		}
+		.up3>div>a>i{
+			display:block;
+			text-align:center;
+			line-height: 0.43rem;
+			font-size:0.4rem;
+			color:#fff;
+		}
+		.up3>p{
+			display:inline-block;
+			color:#fff;
+			font-size:0.28rem;
+			margin-left: 1.73rem;
+		}
+		.up_one{
+			width: 6.4rem;
+			line-height: 0.7rem;
+			background-color: #ebebeb;
+		}
+		.box3{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 0.2rem;
+		}
+		.box3>.line{
+			width: 2.65rem;
+			border-bottom:1px solid #d5d5d5;
+		}
+		.box3>.text{
+			font-size: 0.22rem;
+		}
+		.jianjie{
+			padding:0.18rem 0.52rem 1.35rem 0.52rem;
+			height: 6.8rem;
+		}
+		.jianjie>div{
+			display: flex;
+			padding-bottom: 0.2rem;
+		}
+		.jianjie>div>img{
+			width: 1.45rem;
+			height: 1.47rem;
+		}
+		.jianjie>div>p{
+			font-size: 0.3rem;
+			text-align: center;
+			margin-top: 0.4rem;
+			margin-left: 0.3rem;
+			border-bottom: 1px dashed #d8d8d8;
+		}
+		.jianjie>p{
+			font-size: 0.26rem;
+			line-height: 0.4rem;
+		}
+		.pic1{
+			width: 6.4rem;
+		}
+		.pic1 img{
+			width: 6.21rem;
+			height: 1.96rem;
+			padding: 0 0.1rem 0.1rem 0.1rem;
+		}
+		.pic1>div{
+			position: relative;
+		}
+		.pic1>div>.one1{
+			font-size: 0.2rem;
+			color: #fff;
+			position: absolute;
+			top: 0.1rem;
+			left: 0.22rem;
+			background-color: rgba(17,17,17,0.6)
+		}
+		.pic1>div>.two1{
+			font-size: 0.16rem;
+			color: #fff;
+			position: absolute;
+			top: 1.7rem;
+			left: 0.22rem;
+			background-color: rgba(17,17,17,0.6)
+		}
+		.ban1{
+				background-color: #fff;
+				width: 1.04rem;
+				height: 0.57rem;
+				border-radius: 0.5rem 0.5rem 0.01rem 0.01rem ;
+				border: 0.01rem solid #fff;
+				color: #fff;
+				font-size: 0.16rem;
+				position: absolute;
+				bottom: 0.1rem;
+				right: 0.1rem;
+			}
+			.ban1 .dian1{
+				background-color: #f0884d;
+				width: 1rem;
+				height: 0.5rem;
+				border-radius: 0.5rem 0.5rem 0.01rem 0.01rem ;
+				margin: 0 auto;
+				margin-top: 0.05rem;
+				
+			}
+			.dian1>div{
+				display: flex;
+				margin: 0;
+				text-align: center;
+				padding-top: 0.2rem;
+				padding-left: 0.1rem
+			}
+			.dian1>div>p{
+				font-size: 0.26rem;
+				padding: 0;
+			}
+			.much{
+				background-color: #ebebeb;
+				display: flex;
+				padding:0.2rem 0;
+				line-height: 0.6rem;
+			}
+			.much>p{
+				font-size: 0.3rem;
+				color:#000;
+				margin-left:2.6rem;
+			}
+			.much>i{
+				font-size: 0.35rem;
+				color:#ccc;
+			}
+			#gengduo{
+				display: none;
+			}

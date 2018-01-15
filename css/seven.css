@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:0.32rem;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.nav{
+	width: 6.4rem;
+	height: 0.9rem;
+	background-color: #50bbdb;
+	display: flex;
+}
+.nav>a>img{
+	width: 0.44rem;
+	padding-top: 0.24rem;
+	padding-left: 0.3rem;
+}
+.nav>p{
+	color: #fff;
+	font-size: 0.32rem;
+	line-height: 1rem;
+	padding-left: 1.95rem;
+}
+.nav>span{
+	font-size: 0.22rem;
+	line-height: 1rem;
+	padding-left: 0.95rem;
+
+}
+.nav>span>a{
+	text-decoration: none;
+	color: #fff;
+}
+.me{
+	width: 6.4rem;
+	font-size: 0.28rem;
+	line-height: 0.7rem;
+	border-bottom: 1px solid #ececec;
+}
+.me>div{
+	display: flex;
+	margin: 0 auto;
+	width: 2rem;
+}
+.me>div>p{
+	color: #50bbdb;
+}
+.mee>div{
+	display: flex;
+	margin: 0 auto;
+	width: 5.9rem;
+	border-bottom: 1px solid #ececec;
+}
+.mee>div>i{
+	font-size: 0.5rem;
+	color: #50bbdb;
+	padding: 0.2rem 0.2rem 0.1rem 0.2rem;
+}
+.mee>div>p{
+	font-size: 0.28rem;
+	width: 4.9rem;
+	padding-top: 0.35rem
+}
+.mee>div>div{
+	border: .01rem solid #50bbdb;
+	border-radius: 50%;
+	width: 0.4rem;
+	height: 0.35rem;
+	margin-top: 0.3rem;
+	line-height: .35rem;
+	text-align: center;
+	position: relative;
+	background-color: #fff;
+}
+.mee>div>div>input{
+	display: block;
+	width: .3rem;
+	height: .3rem;
+	outline: none;
+	color:#fff;
+	opacity:0;
+	border:0;
+}
+.buttom{
+	width: 6.4rem;
+	background-color: #50bbdb;
+	position: absolute;
+	bottom: 0;
+}
+.buttom>div{
+	width: 3rem;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	line-height: 1rem;
+}
+.buttom>div>i{
+	font-size: 0.4rem;
+	color: #fff
+}
+.buttom>div>a{
+	width: 4rem;
+	padding-left: 0.2rem;
+	padding-top: 0.03rem;
+	text-decoration: none;
+}
+.buttom>div>a>p{
+	color: #fff;
+	font-size: 0.3rem;
+}

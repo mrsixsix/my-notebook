@@ -1,0 +1,97 @@
+$('.xiala1').tap(function(){
+	$('.above').css({'display':'block'})
+	$('.time').css({'display':'none'})
+})
+$('.xiala2').tap(function(){
+	$('.time').css({'display':'block'})
+	$('.above').css({'display':'none'})
+})
+
+document.querySelector(".above").ontouchstart=function(){
+				document.querySelector(".above").style.display="none"
+			}
+			document.querySelector(".xiao1").ontouchstart=function(event){
+				event.stopPropagation()
+			}
+document.querySelector(".time").ontouchstart=function(){
+				document.querySelector(".time").style.display="none"
+			}
+			document.querySelector(".xiao2").ontouchstart=function(event){
+				event.stopPropagation()
+			}
+
+document.querySelector('.xiala1').onclick=function(){
+	document.querySelector('.above').style.display='block';
+}
+document.querySelector(".xiao1").onclick=function(event){
+	 event.stopPropagation()
+    document.querySelector(".above").style.display="block"
+   }
+document.querySelector(".above").onclick=function(){
+			document.querySelector(".above").style.display='none'
+			}
+// document.querySelector(".city_inner").onclick=function(event){
+// 				event.stopPropagation()
+// }
+document.querySelector('.xiala2').onclick=function(){
+	document.querySelector('.time').style.display='block';
+}
+document.querySelector(".xiao2").onclick=function(event){
+	 event.stopPropagation()
+    document.querySelector(".time").style.display="block"
+   }
+document.querySelector(".time").onclick=function(){
+			document.querySelector(".time").style.display='none'
+			}
+
+document.querySelector(".dingdan>a").ontouchstart=function(event){
+	this.getAttribute('href','../../自驾团订单详情页/index.html')
+}
+
+$('.above>.xiao1>.chu').tap(function(){
+	$('.above').css({'display':'none'})
+	$('.dingdan2').css({'display':'none'})
+	$('.dingdan3').css({'display':'none'})
+	$('.dingdan4').css({'display':'none'})
+	$('.dingdan1').css({'display':'block'})
+})
+$('.above>.xiao1>.zhi').tap(function(){
+	$('.above').css({'display':'none'})
+	$('.dingdan1').css({'display':'none'})
+	$('.dingdan3').css({'display':'none'})
+	$('.dingdan4').css({'display':'none'})
+	$('.dingdan2').css({'display':'block'})
+})
+$('.above>.xiao1>.ping').tap(function(){
+	$('.above').css({'display':'none'})
+	$('.dingdan2').css({'display':'none'})
+	$('.dingdan1').css({'display':'none'})
+	$('.dingdan4').css({'display':'none'})
+	$('.dingdan3').css({'display':'block'})
+})
+$('.above>.xiao1>.xiao').tap(function(){
+	$('.above').css({'display':'none'})
+	$('.dingdan2').css({'display':'none'})
+	$('.dingdan3').css({'display':'none'})
+	$('.dingdan1').css({'display':'none'})
+	$('.dingdan4').css({'display':'block'})
+})
+$('.above>.xiao1>.quan').tap(function(){
+	$('.above').css({'display':'none'})
+	$('.dingdan2').css({'display':'block'})
+	$('.dingdan3').css({'display':'block'})
+	$('.dingdan1').css({'display':'block'})
+	$('.dingdan4').css({'display':'block'})
+})
+$('.time>.xiao2>.xiaa').tap(function(){
+	$('.time').css({'display':'none'})
+	$('.dingdan').css({'display':'none'})
+	$('.dingdanxia').css({'display':'block'})
+})
+
+$('.time>.xiao2>.chuxing').tap(function(){
+	$('.time').css({'display':'none'})
+	$('.dingdan').css({'display':'none'})
+	$('.dingdanxia').css({'display':'none'})
+	$('.dingdanchu').css({'display':'block'})
+})

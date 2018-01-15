@@ -1,0 +1,340 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:0.32rem;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+			.up1{
+				width: 6.4rem;
+				line-height: 0.88rem;
+				background-color:#50bbdb;
+				display:flex;
+			}
+			.up1_p2{
+				margin-left: 1.96rem;
+			}
+			.up1_p1>a{
+				text-decoration: none;
+				color: #fff;
+			}
+			.up1_p1>a>i{
+				font-size: 0.65rem;
+				color:#fff;
+			}
+			.up1_p2>p{
+				font-size: 0.3rem;
+				color:#fff;
+			}
+			.fenlei{
+				width: 6.4rem;
+				line-height: 0.88rem;
+				display:flex;
+				padding-bottom: 0.13rem;
+				background-color: #f1f1f1;
+			}
+			.xiala1,.xiala2{
+				display:flex;
+				width: 3.2rem;
+				text-align: center;
+				line-height:0.74rem ;
+				background-color: #fff;
+			}
+			.xiala1{
+				border-right: 0.01rem solid #ccc;
+			}
+			.xiala1>p{
+				font-size: 0.28rem;
+				text-align: center;
+				line-height:0.74rem ;
+				font-weight: bold;
+				margin-left: 0.7rem;
+			}
+			.xiala1>i{
+				font-size: 0.28rem;
+				text-align: center;
+				line-height:0.74rem ;
+				color:#ccc;
+			}
+			.xiala1{
+				border-right: 0.01rem solid #ccc;
+			}
+			.xiala2>p{
+				font-size: 0.28rem;
+				text-align: center;
+				line-height:0.74rem ;
+				font-weight: bold;
+				margin-left: 0.7rem;
+			}
+			.xiala2>i{
+				font-size: 0.28rem;
+				text-align: center;
+				line-height:0.74rem ;
+				color:#ccc;
+			}
+			.above{
+				position: absolute;
+				top:2rem;
+				bottom:0;
+				left:0;
+				right:0;
+				background-color:rgba(150,150,150,0.7);
+				display: none;
+			}
+			.xiao1>p{
+				width: 6.4rem;
+				font-size: 0.3rem;
+				line-height: 0.71rem;
+				padding-left: 0.6rem;
+				background-color:#fff; 
+				border-bottom: .01rem solid #ccc;
+			}
+			.time{
+				position: absolute;
+				top:2rem;
+				bottom:0;
+				left:0;
+				right:0;
+				background-color:rgba(150,150,150,0.7);
+				display: none;
+			}
+			.xiao2>p{
+				width: 6.4rem;
+				font-size: 0.3rem;
+				line-height: 0.71rem;
+				padding-left: 0.6rem;
+				background-color:#fff; 
+				border-bottom: .01rem solid #ccc;
+			}
+			.dingdan{
+				width: 6.4rem;
+				line-height: 2.2rem;
+				padding-bottom: 0.13rem;
+				background-color: #f1f1f1;
+				
+			}
+			.dingdan>a{
+				text-decoration: none;
+				display: block;
+			}
+			.matter{
+				line-height: 1.30rem;
+				background-color: #fff;
+			}
+			.inner1{
+				width: 6.02rem;
+				line-height: 1.17rem;
+				padding:0 0.22rem;
+			}
+			.shang{
+				display: flex;
+				line-height: 0.35rem;
+				border-bottom: 1px dashed #ccc;
+				
+			}
+			.shang>p{
+				font-size: 0.2rem;
+				color:#ccc;
+			}
+			.xiangqing{
+				padding:0.2rem 0;
+			}
+			.xiangqing>p{
+				font-size: 0.25rem;
+				line-height: 0.35rem;
+				color:#000;
+			}
+			.jiage{
+				font-size: 0.2rem;
+				display: flex;
+				line-height: 0.25rem;
+				margin-top: 0.22rem;
+			}
+			.jiage>p{
+				font-size: 0.25rem;
+				color:red;
+				margin-left: 0.6rem;
+			}
+			.jiage>span{
+				color:#ccc;
+			}
+			.xuanxiang{
+				display: flex;
+				padding:0 0.2rem ;
+				background-color: #f1f1f1;	
+			}
+			.xuanxiang>p{
+				font-size:0.25rem;
+				height: 0.36rem;
+				line-height: 0.5rem;
+				color:red;
+			}
+			.xuanxiang>select{
+				width: 0.9rem;
+				height: 0.36rem;
+				background-color: #fff;
+				text-align: center;
+				line-height: 0.36rem;
+				outline: none;
+				margin-left: 4.2rem;
+				font-size: 0.23rem;
+			}
+
+
+			.dingdanxia{
+				width: 6.4rem;
+				line-height: 2.2rem;
+				padding-bottom: 0.13rem;
+				background-color: #f1f1f1;
+				display: none;
+			}
+			.dingdanxia>a{
+				text-decoration: none;
+				display: block;
+			}
+			.matter{
+				line-height: 1.30rem;
+				background-color: #fff;
+			}
+			.inner1{
+				width: 6.02rem;
+				line-height: 1.17rem;
+				padding:0 0.22rem;
+			}
+			.shang{
+				display: flex;
+				line-height: 0.35rem;
+				border-bottom: 1px dashed #ccc;
+				
+			}
+			.shang>p{
+				font-size: 0.2rem;
+				color:#ccc;
+			}
+			.xiangqing{
+				padding:0.2rem 0;
+			}
+			.xiangqing>p{
+				font-size: 0.25rem;
+				line-height: 0.35rem;
+				color:#000;
+			}
+			.jiage{
+				font-size: 0.2rem;
+				display: flex;
+				line-height: 0.25rem;
+				margin-top: 0.22rem;
+			}
+			.jiage>p{
+				font-size: 0.25rem;
+				color:red;
+				margin-left: 0.6rem;
+			}
+			.jiage>span{
+				color:#ccc;
+			}
+			.xuanxiang{
+				display: flex;
+				padding:0 0.2rem ;
+				background-color: #f1f1f1;	
+			}
+			.xuanxiang>p{
+				font-size:0.25rem;
+				height: 0.36rem;
+				line-height: 0.5rem;
+				color:red;
+			}
+			.xuanxiang>select{
+				width: 0.9rem;
+				height: 0.36rem;
+				background-color: #fff;
+				text-align: center;
+				line-height: 0.36rem;
+				outline: none;
+				margin-left: 4.2rem;
+				font-size: 0.23rem;
+			}
+
+
+			.dingdanchu{
+				width: 6.4rem;
+				line-height: 2.2rem;
+				padding-bottom: 0.13rem;
+				background-color: #f1f1f1;
+				display: none;
+			}
+			.dingdanchu>a{
+				text-decoration: none;
+				display: block;
+			}
+			.matter{
+				line-height: 1.30rem;
+				background-color: #fff;
+			}
+			.inner1{
+				width: 6.02rem;
+				line-height: 1.17rem;
+				padding:0 0.22rem;
+			}
+			.shang{
+				display: flex;
+				line-height: 0.35rem;
+				border-bottom: 1px dashed #ccc;
+				
+			}
+			.shang>p{
+				font-size: 0.2rem;
+				color:#ccc;
+			}
+			.xiangqing{
+				padding:0.2rem 0;
+			}
+			.xiangqing>p{
+				font-size: 0.25rem;
+				line-height: 0.35rem;
+				color:#000;
+			}
+			.jiage{
+				font-size: 0.2rem;
+				display: flex;
+				line-height: 0.25rem;
+				margin-top: 0.22rem;
+			}
+			.jiage>p{
+				font-size: 0.25rem;
+				color:red;
+				margin-left: 0.6rem;
+			}
+			.jiage>span{
+				color:#ccc;
+			}
+			.xuanxiang{
+				display: flex;
+				padding:0 0.2rem ;
+				background-color: #f1f1f1;	
+			}
+			.xuanxiang>p{
+				font-size:0.25rem;
+				height: 0.36rem;
+				line-height: 0.5rem;
+				color:red;
+			}
+			.xuanxiang>select{
+				width: 0.9rem;
+				height: 0.36rem;
+				background-color: #fff;
+				text-align: center;
+				line-height: 0.36rem;
+				outline: none;
+				margin-left: 4.2rem;
+				font-size: 0.23rem;
+			}

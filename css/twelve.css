@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:0.32rem;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.up{
+			width: 6.4rem;
+			line-height: 0.88rem;
+			background-color:#50bbdb;
+			display:flex;
+		}
+		.up>div{
+			text-align: center;
+			border:0.01rem solid #fff;
+			border-radius:50%;
+			width:0.43rem;
+			height:0.43rem;
+			margin-top: 0.23rem;
+			margin-left: 0.43rem;
+		}
+		.up>div>a{
+			text-decoration: none;
+			color: #fff;
+		}
+		.up>div>a>i{
+			display:block;
+			text-align:center;
+			line-height: 0.43rem;
+			font-size:0.4rem;
+			color:#fff;
+			
+		}
+		.up>p{
+			display:inline-block;
+			color:#fff;
+			font-size:0.28rem;
+			margin-left: 1.54rem;
+		}
+		.jianjie{
+			padding:0.18rem 0.52rem 1.35rem 0.52rem;
+			height: 8.05rem;
+		}
+		.jianjie>div{
+			display: flex;
+			padding-bottom: 0.55rem;
+		}
+		.jianjie>div>img{
+			width: 1.45rem;
+			height: 1.47rem;
+		}
+		.jianjie>div>p{
+			font-size: 0.3rem;
+			text-align: center;
+			margin-top: 0.4rem;
+			margin-left: 0.3rem;
+			border-bottom: 1px dashed #d8d8d8;
+		}
+		.jianjie>p{
+			font-size: 0.26rem;
+			line-height: 0.4rem;
+		}
