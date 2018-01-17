@@ -1,10 +1,9 @@
 # Summary
 
-* [🏫 第嘉语录](README.md)
-* [👨‍🏫 Html/css(Mr.Wu)](Html-Css/Html-css.md)
-* [👨‍🎓 JS(Mr.Zhang)](JS/JS.md)
-* [👨‍🎓 JS(Mr.Zhang)](Es6/Es6.md)
-* [👨 Redux(Peter)](Redux/redux.md)
+* [🏫 前言](README.md)
+* [👨‍🏫 Html/css](Html-Css/Html-css.md)
+* [👨‍🎓 JS](JS/JS.md)
+* [👨 Redux](Redux/redux.md)
     * [☝️ Redux-Cart](Redux/redux-cart/redux-cart.md)
         * [😊 - 首先我们要做的基础部分](Redux/redux-cart/1-cra.md)
         * [😊 - 使用内部 state 实现商品列表](Redux/redux-cart/2-state.md)
@@ -29,8 +28,8 @@
         * [😂 - 请求 API](Redux/redux-hello/10-axios.md)
         * [😂 - 使用 redux-thunk 执行异步操作](Redux/redux-hello/11-thunk.md)
         * [😂 - 评论功能调整](Redux/redux-hello/12-comments.md)
-        
-* [👨 Vue(Peter)](Vue/vue.md)
+
+* [👨 Vue](Vue/vue.md)
      * [☝️ Vue-new](Vue/vue-new/Home.md)
         * [🐶 - 创建开发环境](Vue/vue-new/1-env.md)
         * [🐶 - 添加两个组件](Vue/vue-new/2-comp.md)
@@ -46,11 +45,3 @@
         * [🐶 - 添加文章数据](Vue/vue-new/./12-post.md)
         * [🐶 - v-if 解决加载时错误](Vue/vue-new/./13-if.md)
         * [🐶 - 数据关联：评论对应各自博客](Vue/vue-new/./14-relation.md)
-        
-        
-        
-        
-        
-        
-        
-        
